@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meta-rl-submission"
+version = "0.1.0"
+description = "Traffic Light Optimization Agent"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy",
+    "openenv<=0.1.13"
+]
+
+[project.scripts]
+server = "server.app:main"

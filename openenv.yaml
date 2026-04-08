@@ -1,0 +1,6 @@
+name: RL_Traffic_Lights_Controller
+version: "1.0"
+description: "SUMO-based traffic light optimization using DQN"
+entry_point: inference.py
+env_type: custom
+benchmark: sumo

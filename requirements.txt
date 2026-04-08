@@ -1,0 +1,10 @@
+numpy
+torch
+gymnasium
+pygame
+eclipse-sumo
+traci
+openai
+uvicorn[standard]
+fastapi
+uv
