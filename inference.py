@@ -108,4 +108,5 @@ def run_inference():
         print(f"[END] success={success_str} steps={steps} rewards={formatted_rewards}")
 
 if __name__ == "__main__":
+    run_inference()
     uvicorn.run(app, host="0.0.0.0", port=7860)
